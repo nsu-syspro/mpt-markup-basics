@@ -1,7 +1,5 @@
 # Знакомство с языками разметки
 
-<img alt="points bar" align="right" height="36" src="../../blob/badges/.github/badges/points-bar.svg" />
-
 [![File Extensions](https://imgs.xkcd.com/comics/file_extensions.png)](https://xkcd.com/1301/)
 
 > [!NOTE]
