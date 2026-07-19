@@ -15,18 +15,22 @@ jobs:
         sudo apt-get install make pandoc graphviz gnuplot latexmk texlive-xetex texlive-lang-cyrillic
 
     - name: 'Task #1'
+      if: success() || failure()
       run: |
         make task1
 
     - name: 'Task #2'
+      if: success() || failure()
       run: |
         make task2
 
     - name: 'Task #3'
+      if: success() || failure()
       run: |
         make task3
 
     - name: 'Task #4'
+      if: success() || failure()
       run: |
         make task4
 
